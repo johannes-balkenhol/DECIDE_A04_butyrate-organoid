@@ -1,0 +1,14 @@
+,M1_gene_DE,M2_TF,M4_coupling,M3_pathway,n_methods
+ENSG00000278493,True,False,True,True,3
+HSPA5,True,False,True,True,3
+CREB1,False,True,False,True,2
+CEBPD,True,False,True,False,2
+ANAPC1P2,False,True,False,True,2
+ENSG00000226797,False,False,True,True,2
+DSEL,False,True,False,True,2
+MYC,False,True,False,True,2
+NFKB1,False,True,False,True,2
+PPP1R15A,False,True,True,False,2
+REL,True,False,True,False,2
+RTEL1P1,False,True,False,True,2
+TMEM254-AS1,False,True,False,True,2

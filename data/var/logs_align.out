@@ -1,0 +1,204 @@
+nohup: ignoring input
+>> project root: /home/job37yv/Projects_shared/DECIDE_A04_CdiffOrganoid_Butyrate
+[12:29:10] rebuilding data/raw/ with lane-aware merging ...
+   M0R1: 1 lane (symlink)
+   M0R2: 2 lanes -> concatenating (matched order)
+   M0R3: 1 lane (symlink)
+   M5R1: 1 lane (symlink)
+   M5R2: 1 lane (symlink)
+   M5R3: 1 lane (symlink)
+   M10R1: 2 lanes -> concatenating (matched order)
+   M10R2: 1 lane (symlink)
+   M10R3: 1 lane (symlink)
+   Cd0R1: 2 lanes -> concatenating (matched order)
+   Cd0R2: 1 lane (symlink)
+   Cd0R3: 1 lane (symlink)
+   Cd5R1: 2 lanes -> concatenating (matched order)
+   Cd5R2: 1 lane (symlink)
+   Cd5R3: 1 lane (symlink)
+   Cd10R1: 2 lanes -> concatenating (matched order)
+   Cd10R2: 1 lane (symlink)
+   Cd10R3: 1 lane (symlink)
+[12:30:00] aligning: 10 samples in parallel x 10 threads = 100 cores ...
+   >> aligning M0R1
+   >> aligning M0R2
+   >> aligning M0R3
+   >> aligning M5R1
+   >> aligning M5R2
+   >> aligning M5R3
+   >> aligning M10R1
+   >> aligning M10R3
+   >> aligning M10R2
+   >> aligning Cd0R1
+	/home/job37yv/miniforge3/envs/rnaseq/bin/STAR-avx2 --runThreadN 10 --genomeDir /home/job37yv/Projects_shared/DECIDE_A04_CdiffOrganoid_Butyrate/data/refs/star_GRCh38 --readFilesIn /home/job37yv/Projects_shared/DECIDE_A04_CdiffOrganoid_Butyrate/data/raw/M5R1_R1.fastq.gz /home/job37yv/Projects_shared/DECIDE_A04_CdiffOrganoid_Butyrate/data/raw/M5R1_R2.fastq.gz --readFilesCommand zcat --outSAMtype BAM SortedByCoordinate --quantMode GeneCounts --outFileNamePrefix /home/job37yv/Projects_shared/DECIDE_A04_CdiffOrganoid_Butyrate/data/processed/bam/M5R1_
+	STAR version: 2.7.11b   compiled: 2025-11-14T12:06:42+0000 :/opt/conda/conda-bld/star_1763121846936/work/source
+Jun 25 12:30:00 ..... started STAR run
+Jun 25 12:30:00 ..... loading genome
+	/home/job37yv/miniforge3/envs/rnaseq/bin/STAR-avx2 --runThreadN 10 --genomeDir /home/job37yv/Projects_shared/DECIDE_A04_CdiffOrganoid_Butyrate/data/refs/star_GRCh38 --readFilesIn /home/job37yv/Projects_shared/DECIDE_A04_CdiffOrganoid_Butyrate/data/raw/M0R3_R1.fastq.gz /home/job37yv/Projects_shared/DECIDE_A04_CdiffOrganoid_Butyrate/data/raw/M0R3_R2.fastq.gz --readFilesCommand zcat --outSAMtype BAM SortedByCoordinate --quantMode GeneCounts --outFileNamePrefix /home/job37yv/Projects_shared/DECIDE_A04_CdiffOrganoid_Butyrate/data/processed/bam/M0R3_
+	STAR version: 2.7.11b   compiled: 2025-11-14T12:06:42+0000 :/opt/conda/conda-bld/star_1763121846936/work/source
+Jun 25 12:30:00 ..... started STAR run
+Jun 25 12:30:00 ..... loading genome
+	/home/job37yv/miniforge3/envs/rnaseq/bin/STAR-avx2 --runThreadN 10 --genomeDir /home/job37yv/Projects_shared/DECIDE_A04_CdiffOrganoid_Butyrate/data/refs/star_GRCh38 --readFilesIn /home/job37yv/Projects_shared/DECIDE_A04_CdiffOrganoid_Butyrate/data/raw/M10R1_R1.fastq.gz /home/job37yv/Projects_shared/DECIDE_A04_CdiffOrganoid_Butyrate/data/raw/M10R1_R2.fastq.gz --readFilesCommand zcat --outSAMtype BAM SortedByCoordinate --quantMode GeneCounts --outFileNamePrefix /home/job37yv/Projects_shared/DECIDE_A04_CdiffOrganoid_Butyrate/data/processed/bam/M10R1_
+	STAR version: 2.7.11b   compiled: 2025-11-14T12:06:42+0000 :/opt/conda/conda-bld/star_1763121846936/work/source
+Jun 25 12:30:00 ..... started STAR run
+Jun 25 12:30:00 ..... loading genome
+	/home/job37yv/miniforge3/envs/rnaseq/bin/STAR-avx2 --runThreadN 10 --genomeDir /home/job37yv/Projects_shared/DECIDE_A04_CdiffOrganoid_Butyrate/data/refs/star_GRCh38 --readFilesIn /home/job37yv/Projects_shared/DECIDE_A04_CdiffOrganoid_Butyrate/data/raw/M5R2_R1.fastq.gz /home/job37yv/Projects_shared/DECIDE_A04_CdiffOrganoid_Butyrate/data/raw/M5R2_R2.fastq.gz --readFilesCommand zcat --outSAMtype BAM SortedByCoordinate --quantMode GeneCounts --outFileNamePrefix /home/job37yv/Projects_shared/DECIDE_A04_CdiffOrganoid_Butyrate/data/processed/bam/M5R2_
+	STAR version: 2.7.11b   compiled: 2025-11-14T12:06:42+0000 :/opt/conda/conda-bld/star_1763121846936/work/source
+Jun 25 12:30:00 ..... started STAR run
+Jun 25 12:30:00 ..... loading genome
+	/home/job37yv/miniforge3/envs/rnaseq/bin/STAR-avx2 --runThreadN 10 --genomeDir /home/job37yv/Projects_shared/DECIDE_A04_CdiffOrganoid_Butyrate/data/refs/star_GRCh38 --readFilesIn /home/job37yv/Projects_shared/DECIDE_A04_CdiffOrganoid_Butyrate/data/raw/M0R2_R1.fastq.gz /home/job37yv/Projects_shared/DECIDE_A04_CdiffOrganoid_Butyrate/data/raw/M0R2_R2.fastq.gz --readFilesCommand zcat --outSAMtype BAM SortedByCoordinate --quantMode GeneCounts --outFileNamePrefix /home/job37yv/Projects_shared/DECIDE_A04_CdiffOrganoid_Butyrate/data/processed/bam/M0R2_
+	STAR version: 2.7.11b   compiled: 2025-11-14T12:06:42+0000 :/opt/conda/conda-bld/star_1763121846936/work/source
+Jun 25 12:30:00 ..... started STAR run
+Jun 25 12:30:00 ..... loading genome
+	/home/job37yv/miniforge3/envs/rnaseq/bin/STAR-avx2 --runThreadN 10 --genomeDir /home/job37yv/Projects_shared/DECIDE_A04_CdiffOrganoid_Butyrate/data/refs/star_GRCh38 --readFilesIn /home/job37yv/Projects_shared/DECIDE_A04_CdiffOrganoid_Butyrate/data/raw/M5R3_R1.fastq.gz /home/job37yv/Projects_shared/DECIDE_A04_CdiffOrganoid_Butyrate/data/raw/M5R3_R2.fastq.gz --readFilesCommand zcat --outSAMtype BAM SortedByCoordinate --quantMode GeneCounts --outFileNamePrefix /home/job37yv/Projects_shared/DECIDE_A04_CdiffOrganoid_Butyrate/data/processed/bam/M5R3_
+	STAR version: 2.7.11b   compiled: 2025-11-14T12:06:42+0000 :/opt/conda/conda-bld/star_1763121846936/work/source
+Jun 25 12:30:00 ..... started STAR run
+Jun 25 12:30:00 ..... loading genome
+	/home/job37yv/miniforge3/envs/rnaseq/bin/STAR-avx2 --runThreadN 10 --genomeDir /home/job37yv/Projects_shared/DECIDE_A04_CdiffOrganoid_Butyrate/data/refs/star_GRCh38 --readFilesIn /home/job37yv/Projects_shared/DECIDE_A04_CdiffOrganoid_Butyrate/data/raw/M10R2_R1.fastq.gz /home/job37yv/Projects_shared/DECIDE_A04_CdiffOrganoid_Butyrate/data/raw/M10R2_R2.fastq.gz --readFilesCommand zcat --outSAMtype BAM SortedByCoordinate --quantMode GeneCounts --outFileNamePrefix /home/job37yv/Projects_shared/DECIDE_A04_CdiffOrganoid_Butyrate/data/processed/bam/M10R2_
+	STAR version: 2.7.11b   compiled: 2025-11-14T12:06:42+0000 :/opt/conda/conda-bld/star_1763121846936/work/source
+Jun 25 12:30:00 ..... started STAR run
+Jun 25 12:30:00 ..... loading genome
+	/home/job37yv/miniforge3/envs/rnaseq/bin/STAR-avx2 --runThreadN 10 --genomeDir /home/job37yv/Projects_shared/DECIDE_A04_CdiffOrganoid_Butyrate/data/refs/star_GRCh38 --readFilesIn /home/job37yv/Projects_shared/DECIDE_A04_CdiffOrganoid_Butyrate/data/raw/M10R3_R1.fastq.gz /home/job37yv/Projects_shared/DECIDE_A04_CdiffOrganoid_Butyrate/data/raw/M10R3_R2.fastq.gz --readFilesCommand zcat --outSAMtype BAM SortedByCoordinate --quantMode GeneCounts --outFileNamePrefix /home/job37yv/Projects_shared/DECIDE_A04_CdiffOrganoid_Butyrate/data/processed/bam/M10R3_
+	STAR version: 2.7.11b   compiled: 2025-11-14T12:06:42+0000 :/opt/conda/conda-bld/star_1763121846936/work/source
+Jun 25 12:30:00 ..... started STAR run
+Jun 25 12:30:00 ..... loading genome
+	/home/job37yv/miniforge3/envs/rnaseq/bin/STAR-avx2 --runThreadN 10 --genomeDir /home/job37yv/Projects_shared/DECIDE_A04_CdiffOrganoid_Butyrate/data/refs/star_GRCh38 --readFilesIn /home/job37yv/Projects_shared/DECIDE_A04_CdiffOrganoid_Butyrate/data/raw/Cd0R1_R1.fastq.gz /home/job37yv/Projects_shared/DECIDE_A04_CdiffOrganoid_Butyrate/data/raw/Cd0R1_R2.fastq.gz --readFilesCommand zcat --outSAMtype BAM SortedByCoordinate --quantMode GeneCounts --outFileNamePrefix /home/job37yv/Projects_shared/DECIDE_A04_CdiffOrganoid_Butyrate/data/processed/bam/Cd0R1_
+	STAR version: 2.7.11b   compiled: 2025-11-14T12:06:42+0000 :/opt/conda/conda-bld/star_1763121846936/work/source
+Jun 25 12:30:00 ..... started STAR run
+Jun 25 12:30:00 ..... loading genome
+	/home/job37yv/miniforge3/envs/rnaseq/bin/STAR-avx2 --runThreadN 10 --genomeDir /home/job37yv/Projects_shared/DECIDE_A04_CdiffOrganoid_Butyrate/data/refs/star_GRCh38 --readFilesIn /home/job37yv/Projects_shared/DECIDE_A04_CdiffOrganoid_Butyrate/data/raw/M0R1_R1.fastq.gz /home/job37yv/Projects_shared/DECIDE_A04_CdiffOrganoid_Butyrate/data/raw/M0R1_R2.fastq.gz --readFilesCommand zcat --outSAMtype BAM SortedByCoordinate --quantMode GeneCounts --outFileNamePrefix /home/job37yv/Projects_shared/DECIDE_A04_CdiffOrganoid_Butyrate/data/processed/bam/M0R1_
+	STAR version: 2.7.11b   compiled: 2025-11-14T12:06:42+0000 :/opt/conda/conda-bld/star_1763121846936/work/source
+Jun 25 12:30:00 ..... started STAR run
+Jun 25 12:30:00 ..... loading genome
+Jun 25 12:30:23 ..... started mapping
+Jun 25 12:30:23 ..... started mapping
+Jun 25 12:30:23 ..... started mapping
+Jun 25 12:30:23 ..... started mapping
+Jun 25 12:30:24 ..... started mapping
+Jun 25 12:30:25 ..... started mapping
+Jun 25 12:30:26 ..... started mapping
+Jun 25 12:30:26 ..... started mapping
+Jun 25 12:30:26 ..... started mapping
+Jun 25 12:30:26 ..... started mapping
+Jun 25 12:39:24 ..... finished mapping
+Jun 25 12:39:29 ..... started sorting BAM
+Jun 25 12:39:39 ..... finished mapping
+Jun 25 12:39:43 ..... started sorting BAM
+Jun 25 12:39:47 ..... finished mapping
+Jun 25 12:39:50 ..... finished mapping
+Jun 25 12:39:51 ..... started sorting BAM
+Jun 25 12:39:55 ..... started sorting BAM
+Jun 25 12:39:57 ..... finished mapping
+Jun 25 12:39:58 ..... finished mapping
+Jun 25 12:40:01 ..... started sorting BAM
+Jun 25 12:40:01 ..... finished mapping
+Jun 25 12:40:02 ..... started sorting BAM
+Jun 25 12:40:05 ..... started sorting BAM
+Jun 25 12:40:12 ..... finished mapping
+Jun 25 12:40:15 ..... finished mapping
+Jun 25 12:40:16 ..... started sorting BAM
+Jun 25 12:40:18 ..... started sorting BAM
+Jun 25 12:40:22 ..... finished mapping
+Jun 25 12:40:27 ..... started sorting BAM
+Jun 25 12:40:41 ..... finished successfully
+Jun 25 12:41:06 ..... finished successfully
+Jun 25 12:41:17 ..... finished successfully
+Jun 25 12:41:20 ..... finished successfully
+Jun 25 12:41:31 ..... finished successfully
+Jun 25 12:41:32 ..... finished successfully
+Jun 25 12:41:43 ..... finished successfully
+Jun 25 12:41:50 ..... finished successfully
+Jun 25 12:41:55 ..... finished successfully
+Jun 25 12:42:05 ..... finished successfully
+   done M0R3
+   >> aligning Cd0R2
+	/home/job37yv/miniforge3/envs/rnaseq/bin/STAR-avx2 --runThreadN 10 --genomeDir /home/job37yv/Projects_shared/DECIDE_A04_CdiffOrganoid_Butyrate/data/refs/star_GRCh38 --readFilesIn /home/job37yv/Projects_shared/DECIDE_A04_CdiffOrganoid_Butyrate/data/raw/Cd0R2_R1.fastq.gz /home/job37yv/Projects_shared/DECIDE_A04_CdiffOrganoid_Butyrate/data/raw/Cd0R2_R2.fastq.gz --readFilesCommand zcat --outSAMtype BAM SortedByCoordinate --quantMode GeneCounts --outFileNamePrefix /home/job37yv/Projects_shared/DECIDE_A04_CdiffOrganoid_Butyrate/data/processed/bam/Cd0R2_
+	STAR version: 2.7.11b   compiled: 2025-11-14T12:06:42+0000 :/opt/conda/conda-bld/star_1763121846936/work/source
+Jun 25 12:44:51 ..... started STAR run
+Jun 25 12:44:51 ..... loading genome
+   done M5R3
+   >> aligning Cd0R3
+	/home/job37yv/miniforge3/envs/rnaseq/bin/STAR-avx2 --runThreadN 10 --genomeDir /home/job37yv/Projects_shared/DECIDE_A04_CdiffOrganoid_Butyrate/data/refs/star_GRCh38 --readFilesIn /home/job37yv/Projects_shared/DECIDE_A04_CdiffOrganoid_Butyrate/data/raw/Cd0R3_R1.fastq.gz /home/job37yv/Projects_shared/DECIDE_A04_CdiffOrganoid_Butyrate/data/raw/Cd0R3_R2.fastq.gz --readFilesCommand zcat --outSAMtype BAM SortedByCoordinate --quantMode GeneCounts --outFileNamePrefix /home/job37yv/Projects_shared/DECIDE_A04_CdiffOrganoid_Butyrate/data/processed/bam/Cd0R3_
+	STAR version: 2.7.11b   compiled: 2025-11-14T12:06:42+0000 :/opt/conda/conda-bld/star_1763121846936/work/source
+Jun 25 12:45:12 ..... started STAR run
+Jun 25 12:45:12 ..... loading genome
+Jun 25 12:45:13 ..... started mapping
+   done M10R1
+   >> aligning Cd5R1
+	/home/job37yv/miniforge3/envs/rnaseq/bin/STAR-avx2 --runThreadN 10 --genomeDir /home/job37yv/Projects_shared/DECIDE_A04_CdiffOrganoid_Butyrate/data/refs/star_GRCh38 --readFilesIn /home/job37yv/Projects_shared/DECIDE_A04_CdiffOrganoid_Butyrate/data/raw/Cd5R1_R1.fastq.gz /home/job37yv/Projects_shared/DECIDE_A04_CdiffOrganoid_Butyrate/data/raw/Cd5R1_R2.fastq.gz --readFilesCommand zcat --outSAMtype BAM SortedByCoordinate --quantMode GeneCounts --outFileNamePrefix /home/job37yv/Projects_shared/DECIDE_A04_CdiffOrganoid_Butyrate/data/processed/bam/Cd5R1_
+	STAR version: 2.7.11b   compiled: 2025-11-14T12:06:42+0000 :/opt/conda/conda-bld/star_1763121846936/work/source
+Jun 25 12:45:27 ..... started STAR run
+Jun 25 12:45:27 ..... loading genome
+Jun 25 12:45:31 ..... started mapping
+   done M0R1
+   >> aligning Cd5R2
+	/home/job37yv/miniforge3/envs/rnaseq/bin/STAR-avx2 --runThreadN 10 --genomeDir /home/job37yv/Projects_shared/DECIDE_A04_CdiffOrganoid_Butyrate/data/refs/star_GRCh38 --readFilesIn /home/job37yv/Projects_shared/DECIDE_A04_CdiffOrganoid_Butyrate/data/raw/Cd5R2_R1.fastq.gz /home/job37yv/Projects_shared/DECIDE_A04_CdiffOrganoid_Butyrate/data/raw/Cd5R2_R2.fastq.gz --readFilesCommand zcat --outSAMtype BAM SortedByCoordinate --quantMode GeneCounts --outFileNamePrefix /home/job37yv/Projects_shared/DECIDE_A04_CdiffOrganoid_Butyrate/data/processed/bam/Cd5R2_
+	STAR version: 2.7.11b   compiled: 2025-11-14T12:06:42+0000 :/opt/conda/conda-bld/star_1763121846936/work/source
+Jun 25 12:45:38 ..... started STAR run
+Jun 25 12:45:38 ..... loading genome
+   done M10R3
+   >> aligning Cd5R3
+	/home/job37yv/miniforge3/envs/rnaseq/bin/STAR-avx2 --runThreadN 10 --genomeDir /home/job37yv/Projects_shared/DECIDE_A04_CdiffOrganoid_Butyrate/data/refs/star_GRCh38 --readFilesIn /home/job37yv/Projects_shared/DECIDE_A04_CdiffOrganoid_Butyrate/data/raw/Cd5R3_R1.fastq.gz /home/job37yv/Projects_shared/DECIDE_A04_CdiffOrganoid_Butyrate/data/raw/Cd5R3_R2.fastq.gz --readFilesCommand zcat --outSAMtype BAM SortedByCoordinate --quantMode GeneCounts --outFileNamePrefix /home/job37yv/Projects_shared/DECIDE_A04_CdiffOrganoid_Butyrate/data/processed/bam/Cd5R3_
+	STAR version: 2.7.11b   compiled: 2025-11-14T12:06:42+0000 :/opt/conda/conda-bld/star_1763121846936/work/source
+Jun 25 12:45:39 ..... started STAR run
+Jun 25 12:45:39 ..... loading genome
+   done M5R1
+   >> aligning Cd10R1
+	/home/job37yv/miniforge3/envs/rnaseq/bin/STAR-avx2 --runThreadN 10 --genomeDir /home/job37yv/Projects_shared/DECIDE_A04_CdiffOrganoid_Butyrate/data/refs/star_GRCh38 --readFilesIn /home/job37yv/Projects_shared/DECIDE_A04_CdiffOrganoid_Butyrate/data/raw/Cd10R1_R1.fastq.gz /home/job37yv/Projects_shared/DECIDE_A04_CdiffOrganoid_Butyrate/data/raw/Cd10R1_R2.fastq.gz --readFilesCommand zcat --outSAMtype BAM SortedByCoordinate --quantMode GeneCounts --outFileNamePrefix /home/job37yv/Projects_shared/DECIDE_A04_CdiffOrganoid_Butyrate/data/processed/bam/Cd10R1_
+	STAR version: 2.7.11b   compiled: 2025-11-14T12:06:42+0000 :/opt/conda/conda-bld/star_1763121846936/work/source
+Jun 25 12:45:39 ..... started STAR run
+Jun 25 12:45:39 ..... loading genome
+   done M10R2
+   >> aligning Cd10R2
+	/home/job37yv/miniforge3/envs/rnaseq/bin/STAR-avx2 --runThreadN 10 --genomeDir /home/job37yv/Projects_shared/DECIDE_A04_CdiffOrganoid_Butyrate/data/refs/star_GRCh38 --readFilesIn /home/job37yv/Projects_shared/DECIDE_A04_CdiffOrganoid_Butyrate/data/raw/Cd10R2_R1.fastq.gz /home/job37yv/Projects_shared/DECIDE_A04_CdiffOrganoid_Butyrate/data/raw/Cd10R2_R2.fastq.gz --readFilesCommand zcat --outSAMtype BAM SortedByCoordinate --quantMode GeneCounts --outFileNamePrefix /home/job37yv/Projects_shared/DECIDE_A04_CdiffOrganoid_Butyrate/data/processed/bam/Cd10R2_
+	STAR version: 2.7.11b   compiled: 2025-11-14T12:06:42+0000 :/opt/conda/conda-bld/star_1763121846936/work/source
+Jun 25 12:45:41 ..... started STAR run
+Jun 25 12:45:41 ..... loading genome
+Jun 25 12:45:45 ..... started mapping
+   done Cd0R1
+   >> aligning Cd10R3
+	/home/job37yv/miniforge3/envs/rnaseq/bin/STAR-avx2 --runThreadN 10 --genomeDir /home/job37yv/Projects_shared/DECIDE_A04_CdiffOrganoid_Butyrate/data/refs/star_GRCh38 --readFilesIn /home/job37yv/Projects_shared/DECIDE_A04_CdiffOrganoid_Butyrate/data/raw/Cd10R3_R1.fastq.gz /home/job37yv/Projects_shared/DECIDE_A04_CdiffOrganoid_Butyrate/data/raw/Cd10R3_R2.fastq.gz --readFilesCommand zcat --outSAMtype BAM SortedByCoordinate --quantMode GeneCounts --outFileNamePrefix /home/job37yv/Projects_shared/DECIDE_A04_CdiffOrganoid_Butyrate/data/processed/bam/Cd10R3_
+	STAR version: 2.7.11b   compiled: 2025-11-14T12:06:42+0000 :/opt/conda/conda-bld/star_1763121846936/work/source
+Jun 25 12:45:47 ..... started STAR run
+Jun 25 12:45:47 ..... loading genome
+   done M5R2
+   done M0R2
+Jun 25 12:45:56 ..... started mapping
+Jun 25 12:45:58 ..... started mapping
+Jun 25 12:45:58 ..... started mapping
+Jun 25 12:46:01 ..... started mapping
+Jun 25 12:46:06 ..... started mapping
+Jun 25 12:52:21 ..... finished mapping
+Jun 25 12:52:26 ..... started sorting BAM
+Jun 25 12:52:43 ..... finished mapping
+Jun 25 12:52:47 ..... started sorting BAM
+Jun 25 12:52:51 ..... finished mapping
+Jun 25 12:52:55 ..... started sorting BAM
+Jun 25 12:52:57 ..... finished mapping
+Jun 25 12:53:00 ..... started sorting BAM
+Jun 25 12:53:10 ..... finished mapping
+Jun 25 12:53:14 ..... started sorting BAM
+Jun 25 12:53:15 ..... finished mapping
+Jun 25 12:53:19 ..... started sorting BAM
+Jun 25 12:53:28 ..... finished mapping
+Jun 25 12:53:33 ..... started sorting BAM
+Jun 25 12:53:33 ..... finished successfully
+Jun 25 12:53:53 ..... finished successfully
+Jun 25 12:54:01 ..... finished successfully
+Jun 25 12:54:09 ..... finished successfully
+Jun 25 12:54:09 ..... finished mapping
+Jun 25 12:54:14 ..... started sorting BAM
+Jun 25 12:54:20 ..... finished successfully
+Jun 25 12:54:30 ..... finished successfully
+Jun 25 12:54:47 ..... finished successfully
+Jun 25 12:56:37 ..... finished successfully
+   done Cd0R2
+   done Cd5R2
+   done Cd5R3
+   done Cd5R1
+   done Cd0R3
+   done Cd10R1
+   done Cd10R3
+   done Cd10R2
+[12:58:07] alignment finished. BAMs in /home/job37yv/Projects_shared/DECIDE_A04_CdiffOrganoid_Butyrate/data/processed/bam/
+>> next: bash run_pipeline_A04_hostonly.sh strand   # then quant

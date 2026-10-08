@@ -1,0 +1,12 @@
+gene,model,group,label,log2FoldChange,lfcSE,padj_or_pvalue
+CXCL8,HT29 (co-infection),infection context,Cd vs Mock,3.1974673323878995,,3.139687571933449e-09
+CXCL8,HT29 (co-infection),infection context,Co-infection vs Mock,0.877123883466511,,0.4466157369229117
+CXCL8,HT29 (co-infection),infection context,Bt vs Mock,0.1558467186220576,,0.9791121804294538
+CXCL8,HT29 (co-infection),correlation pairwise,Bt vs Cd,-3.0416206137658417,,3.139687571933449e-09
+CXCL8,HT29 (co-infection),correlation pairwise,Cd vs Co,2.3203434489213883,,3.139687571933449e-09
+CXCL8,HT29 (co-infection),correlation pairwise,Bt vs Co,-0.7212771648444535,,0.4466157369229117
+CXCL8,Organoid (butyrate),infection context,Cd vs Mock · 0mM,4.089606591639389,0.3018054421705601,1.644654477286705e-38
+CXCL8,Organoid (butyrate),butyrate only,But 5mM (Mock),-0.921922478038834,0.3028979025800231,0.0800148467585095
+CXCL8,Organoid (butyrate),butyrate only,But 10mM (Mock),-1.5439232590341505,0.3032842062411779,1.3792085125661809e-05
+CXCL8,Organoid (butyrate),butyrate + infection,But 5mM (Cd),-0.9251151795704388,0.3011898922523194,0.0340226426390175
+CXCL8,Organoid (butyrate),butyrate + infection,But 10mM (Cd),-3.733541961201854,0.3015932002114487,3.1148391396214234e-31

@@ -1,0 +1,470 @@
+fair_metadata_version: 0.1-draft
+generated: 2026-07-06
+note: Draft FAIR metadata for review. <TODO> = confirm before publication.
+dataset:
+  title: C. difficile infection of colonic organoids under a butyrate dose-response
+  decide_project: A04
+  controlled_vocabulary: terms aligned to EBI ArrayExpress / MIABIS where possible
+  biological:
+    organism: Homo sapiens
+    ncbi_taxon: "NCBI:txid9606"
+    tissue: colon
+    tissue_ontology: "UBERON:0001155"
+    model_system: patient-derived colonic organoid
+    cell_line: null
+    donor: single donor (<TODO donor ID>)
+    pathogen: Clostridioides difficile
+    pathogen_taxon: "NCBI:txid1496"
+    treatment: sodium butyrate
+    treatment_doses_mM:
+      - 0
+      - 5
+      - 10
+    conditions: Mock/Cd x butyrate 0/5/10 mM, 3 replicates
+  technical:
+    library_strategy: RNA-Seq
+    library_selection: polyA
+    library_layout: PAIRED
+    instrument: Illumina NovaSeq (<TODO confirm>)
+    strandedness: unstranded
+    reference_genome: GRCh38
+    annotation: GENCODE v46
+    provider: Novogene
+
+samples:
+  Cd0R1:
+    sample_id: Cd0R1
+    infection: Cd_infected
+    butyrate_mM: 0
+    replicate: 1
+    files:
+      -
+        path: data/raw_data/Cd0R1_R1.fastq.gz
+        read: R1
+        metadata_ref: data/meta_data/DECIDE_A04_CdiffOrganoid_Butyrate_raw_metadata.yaml#/samples/Cd0R1
+      -
+        path: data/raw_data/Cd0R1_R2.fastq.gz
+        read: R2
+        metadata_ref: data/meta_data/DECIDE_A04_CdiffOrganoid_Butyrate_raw_metadata.yaml#/samples/Cd0R1
+      -
+        path: data/raw_data/_novogene_extracted/X208SC26056228-Z01-F001/01.RawData/Cd0R1/Cd0R1_MKRN260032560-1A_23M5NYLT4_L5_1.fq.gz
+        read: R1
+        metadata_ref: data/meta_data/DECIDE_A04_CdiffOrganoid_Butyrate_raw_metadata.yaml#/samples/Cd0R1
+      -
+        path: data/raw_data/_novogene_extracted/X208SC26056228-Z01-F001/01.RawData/Cd0R1/Cd0R1_MKRN260032560-1A_23M5NYLT4_L5_2.fq.gz
+        read: R2
+        metadata_ref: data/meta_data/DECIDE_A04_CdiffOrganoid_Butyrate_raw_metadata.yaml#/samples/Cd0R1
+      -
+        path: data/raw_data/_novogene_extracted/X208SC26056228-Z01-F001/01.RawData/Cd0R1/Cd0R1_MKRN260032560-1A_23M5WCLT4_L4_1.fq.gz
+        read: R1
+        metadata_ref: data/meta_data/DECIDE_A04_CdiffOrganoid_Butyrate_raw_metadata.yaml#/samples/Cd0R1
+      -
+        path: data/raw_data/_novogene_extracted/X208SC26056228-Z01-F001/01.RawData/Cd0R1/Cd0R1_MKRN260032560-1A_23M5WCLT4_L4_2.fq.gz
+        read: R2
+        metadata_ref: data/meta_data/DECIDE_A04_CdiffOrganoid_Butyrate_raw_metadata.yaml#/samples/Cd0R1
+  Cd0R2:
+    sample_id: Cd0R2
+    infection: Cd_infected
+    butyrate_mM: 0
+    replicate: 2
+    files:
+      -
+        path: data/raw_data/Cd0R2_R1.fastq.gz
+        read: R1
+        metadata_ref: data/meta_data/DECIDE_A04_CdiffOrganoid_Butyrate_raw_metadata.yaml#/samples/Cd0R2
+      -
+        path: data/raw_data/Cd0R2_R2.fastq.gz
+        read: R2
+        metadata_ref: data/meta_data/DECIDE_A04_CdiffOrganoid_Butyrate_raw_metadata.yaml#/samples/Cd0R2
+      -
+        path: data/raw_data/_novogene_extracted/X208SC26056228-Z01-F001/01.RawData/Cd0R2/Cd0R2_MKRN260032561-1A_23M5NYLT4_L4_1.fq.gz
+        read: R1
+        metadata_ref: data/meta_data/DECIDE_A04_CdiffOrganoid_Butyrate_raw_metadata.yaml#/samples/Cd0R2
+      -
+        path: data/raw_data/_novogene_extracted/X208SC26056228-Z01-F001/01.RawData/Cd0R2/Cd0R2_MKRN260032561-1A_23M5NYLT4_L4_2.fq.gz
+        read: R2
+        metadata_ref: data/meta_data/DECIDE_A04_CdiffOrganoid_Butyrate_raw_metadata.yaml#/samples/Cd0R2
+  Cd0R3:
+    sample_id: Cd0R3
+    infection: Cd_infected
+    butyrate_mM: 0
+    replicate: 3
+    files:
+      -
+        path: data/raw_data/Cd0R3_R1.fastq.gz
+        read: R1
+        metadata_ref: data/meta_data/DECIDE_A04_CdiffOrganoid_Butyrate_raw_metadata.yaml#/samples/Cd0R3
+      -
+        path: data/raw_data/Cd0R3_R2.fastq.gz
+        read: R2
+        metadata_ref: data/meta_data/DECIDE_A04_CdiffOrganoid_Butyrate_raw_metadata.yaml#/samples/Cd0R3
+      -
+        path: data/raw_data/_novogene_extracted/X208SC26056228-Z01-F001/01.RawData/Cd0R3/Cd0R3_MKRN260032562-1A_23M5NYLT4_L4_1.fq.gz
+        read: R1
+        metadata_ref: data/meta_data/DECIDE_A04_CdiffOrganoid_Butyrate_raw_metadata.yaml#/samples/Cd0R3
+      -
+        path: data/raw_data/_novogene_extracted/X208SC26056228-Z01-F001/01.RawData/Cd0R3/Cd0R3_MKRN260032562-1A_23M5NYLT4_L4_2.fq.gz
+        read: R2
+        metadata_ref: data/meta_data/DECIDE_A04_CdiffOrganoid_Butyrate_raw_metadata.yaml#/samples/Cd0R3
+  Cd10R1:
+    sample_id: Cd10R1
+    infection: Cd_infected
+    butyrate_mM: 10
+    replicate: 1
+    files:
+      -
+        path: data/raw_data/Cd10R1_R1.fastq.gz
+        read: R1
+        metadata_ref: data/meta_data/DECIDE_A04_CdiffOrganoid_Butyrate_raw_metadata.yaml#/samples/Cd10R1
+      -
+        path: data/raw_data/Cd10R1_R2.fastq.gz
+        read: R2
+        metadata_ref: data/meta_data/DECIDE_A04_CdiffOrganoid_Butyrate_raw_metadata.yaml#/samples/Cd10R1
+      -
+        path: data/raw_data/_novogene_extracted/X208SC26056228-Z01-F001/01.RawData/Cd10R1/Cd10R1_MKRN260032566-1A_23M5NYLT4_L5_1.fq.gz
+        read: R1
+        metadata_ref: data/meta_data/DECIDE_A04_CdiffOrganoid_Butyrate_raw_metadata.yaml#/samples/Cd10R1
+      -
+        path: data/raw_data/_novogene_extracted/X208SC26056228-Z01-F001/01.RawData/Cd10R1/Cd10R1_MKRN260032566-1A_23M5NYLT4_L5_2.fq.gz
+        read: R2
+        metadata_ref: data/meta_data/DECIDE_A04_CdiffOrganoid_Butyrate_raw_metadata.yaml#/samples/Cd10R1
+      -
+        path: data/raw_data/_novogene_extracted/X208SC26056228-Z01-F001/01.RawData/Cd10R1/Cd10R1_MKRN260032566-1A_23M5WCLT4_L4_1.fq.gz
+        read: R1
+        metadata_ref: data/meta_data/DECIDE_A04_CdiffOrganoid_Butyrate_raw_metadata.yaml#/samples/Cd10R1
+      -
+        path: data/raw_data/_novogene_extracted/X208SC26056228-Z01-F001/01.RawData/Cd10R1/Cd10R1_MKRN260032566-1A_23M5WCLT4_L4_2.fq.gz
+        read: R2
+        metadata_ref: data/meta_data/DECIDE_A04_CdiffOrganoid_Butyrate_raw_metadata.yaml#/samples/Cd10R1
+  Cd10R2:
+    sample_id: Cd10R2
+    infection: Cd_infected
+    butyrate_mM: 10
+    replicate: 2
+    files:
+      -
+        path: data/raw_data/Cd10R2_R1.fastq.gz
+        read: R1
+        metadata_ref: data/meta_data/DECIDE_A04_CdiffOrganoid_Butyrate_raw_metadata.yaml#/samples/Cd10R2
+      -
+        path: data/raw_data/Cd10R2_R2.fastq.gz
+        read: R2
+        metadata_ref: data/meta_data/DECIDE_A04_CdiffOrganoid_Butyrate_raw_metadata.yaml#/samples/Cd10R2
+      -
+        path: data/raw_data/_novogene_extracted/X208SC26056228-Z01-F001/01.RawData/Cd10R2/Cd10R2_MKRN260032567-1A_23M5NYLT4_L4_1.fq.gz
+        read: R1
+        metadata_ref: data/meta_data/DECIDE_A04_CdiffOrganoid_Butyrate_raw_metadata.yaml#/samples/Cd10R2
+      -
+        path: data/raw_data/_novogene_extracted/X208SC26056228-Z01-F001/01.RawData/Cd10R2/Cd10R2_MKRN260032567-1A_23M5NYLT4_L4_2.fq.gz
+        read: R2
+        metadata_ref: data/meta_data/DECIDE_A04_CdiffOrganoid_Butyrate_raw_metadata.yaml#/samples/Cd10R2
+  Cd10R3:
+    sample_id: Cd10R3
+    infection: Cd_infected
+    butyrate_mM: 10
+    replicate: 3
+    files:
+      -
+        path: data/raw_data/Cd10R3_R1.fastq.gz
+        read: R1
+        metadata_ref: data/meta_data/DECIDE_A04_CdiffOrganoid_Butyrate_raw_metadata.yaml#/samples/Cd10R3
+      -
+        path: data/raw_data/Cd10R3_R2.fastq.gz
+        read: R2
+        metadata_ref: data/meta_data/DECIDE_A04_CdiffOrganoid_Butyrate_raw_metadata.yaml#/samples/Cd10R3
+      -
+        path: data/raw_data/_novogene_extracted/X208SC26056228-Z01-F001/01.RawData/Cd10R3/Cd10R3_MKRN260032568-1A_23M5NYLT4_L4_1.fq.gz
+        read: R1
+        metadata_ref: data/meta_data/DECIDE_A04_CdiffOrganoid_Butyrate_raw_metadata.yaml#/samples/Cd10R3
+      -
+        path: data/raw_data/_novogene_extracted/X208SC26056228-Z01-F001/01.RawData/Cd10R3/Cd10R3_MKRN260032568-1A_23M5NYLT4_L4_2.fq.gz
+        read: R2
+        metadata_ref: data/meta_data/DECIDE_A04_CdiffOrganoid_Butyrate_raw_metadata.yaml#/samples/Cd10R3
+  Cd5R1:
+    sample_id: Cd5R1
+    infection: Cd_infected
+    butyrate_mM: 5
+    replicate: 1
+    files:
+      -
+        path: data/raw_data/Cd5R1_R1.fastq.gz
+        read: R1
+        metadata_ref: data/meta_data/DECIDE_A04_CdiffOrganoid_Butyrate_raw_metadata.yaml#/samples/Cd5R1
+      -
+        path: data/raw_data/Cd5R1_R2.fastq.gz
+        read: R2
+        metadata_ref: data/meta_data/DECIDE_A04_CdiffOrganoid_Butyrate_raw_metadata.yaml#/samples/Cd5R1
+      -
+        path: data/raw_data/_novogene_extracted/X208SC26056228-Z01-F001/01.RawData/Cd5R1/Cd5R1_MKRN260032563-1A_23M5NYLT4_L5_1.fq.gz
+        read: R1
+        metadata_ref: data/meta_data/DECIDE_A04_CdiffOrganoid_Butyrate_raw_metadata.yaml#/samples/Cd5R1
+      -
+        path: data/raw_data/_novogene_extracted/X208SC26056228-Z01-F001/01.RawData/Cd5R1/Cd5R1_MKRN260032563-1A_23M5NYLT4_L5_2.fq.gz
+        read: R2
+        metadata_ref: data/meta_data/DECIDE_A04_CdiffOrganoid_Butyrate_raw_metadata.yaml#/samples/Cd5R1
+      -
+        path: data/raw_data/_novogene_extracted/X208SC26056228-Z01-F001/01.RawData/Cd5R1/Cd5R1_MKRN260032563-1A_23M5WCLT4_L4_1.fq.gz
+        read: R1
+        metadata_ref: data/meta_data/DECIDE_A04_CdiffOrganoid_Butyrate_raw_metadata.yaml#/samples/Cd5R1
+      -
+        path: data/raw_data/_novogene_extracted/X208SC26056228-Z01-F001/01.RawData/Cd5R1/Cd5R1_MKRN260032563-1A_23M5WCLT4_L4_2.fq.gz
+        read: R2
+        metadata_ref: data/meta_data/DECIDE_A04_CdiffOrganoid_Butyrate_raw_metadata.yaml#/samples/Cd5R1
+  Cd5R2:
+    sample_id: Cd5R2
+    infection: Cd_infected
+    butyrate_mM: 5
+    replicate: 2
+    files:
+      -
+        path: data/raw_data/Cd5R2_R1.fastq.gz
+        read: R1
+        metadata_ref: data/meta_data/DECIDE_A04_CdiffOrganoid_Butyrate_raw_metadata.yaml#/samples/Cd5R2
+      -
+        path: data/raw_data/Cd5R2_R2.fastq.gz
+        read: R2
+        metadata_ref: data/meta_data/DECIDE_A04_CdiffOrganoid_Butyrate_raw_metadata.yaml#/samples/Cd5R2
+      -
+        path: data/raw_data/_novogene_extracted/X208SC26056228-Z01-F001/01.RawData/Cd5R2/Cd5R2_MKRN260032564-1A_23M5NYLT4_L4_1.fq.gz
+        read: R1
+        metadata_ref: data/meta_data/DECIDE_A04_CdiffOrganoid_Butyrate_raw_metadata.yaml#/samples/Cd5R2
+      -
+        path: data/raw_data/_novogene_extracted/X208SC26056228-Z01-F001/01.RawData/Cd5R2/Cd5R2_MKRN260032564-1A_23M5NYLT4_L4_2.fq.gz
+        read: R2
+        metadata_ref: data/meta_data/DECIDE_A04_CdiffOrganoid_Butyrate_raw_metadata.yaml#/samples/Cd5R2
+  Cd5R3:
+    sample_id: Cd5R3
+    infection: Cd_infected
+    butyrate_mM: 5
+    replicate: 3
+    files:
+      -
+        path: data/raw_data/Cd5R3_R1.fastq.gz
+        read: R1
+        metadata_ref: data/meta_data/DECIDE_A04_CdiffOrganoid_Butyrate_raw_metadata.yaml#/samples/Cd5R3
+      -
+        path: data/raw_data/Cd5R3_R2.fastq.gz
+        read: R2
+        metadata_ref: data/meta_data/DECIDE_A04_CdiffOrganoid_Butyrate_raw_metadata.yaml#/samples/Cd5R3
+      -
+        path: data/raw_data/_novogene_extracted/X208SC26056228-Z01-F001/01.RawData/Cd5R3/Cd5R3_MKRN260032565-1A_23M5NYLT4_L4_1.fq.gz
+        read: R1
+        metadata_ref: data/meta_data/DECIDE_A04_CdiffOrganoid_Butyrate_raw_metadata.yaml#/samples/Cd5R3
+      -
+        path: data/raw_data/_novogene_extracted/X208SC26056228-Z01-F001/01.RawData/Cd5R3/Cd5R3_MKRN260032565-1A_23M5NYLT4_L4_2.fq.gz
+        read: R2
+        metadata_ref: data/meta_data/DECIDE_A04_CdiffOrganoid_Butyrate_raw_metadata.yaml#/samples/Cd5R3
+  M0R1:
+    sample_id: M0R1
+    infection: Mock
+    butyrate_mM: 0
+    replicate: 1
+    files:
+      -
+        path: data/raw_data/M0R1_R1.fastq.gz
+        read: R1
+        metadata_ref: data/meta_data/DECIDE_A04_CdiffOrganoid_Butyrate_raw_metadata.yaml#/samples/M0R1
+      -
+        path: data/raw_data/M0R1_R2.fastq.gz
+        read: R2
+        metadata_ref: data/meta_data/DECIDE_A04_CdiffOrganoid_Butyrate_raw_metadata.yaml#/samples/M0R1
+      -
+        path: data/raw_data/_novogene_extracted/X208SC26056228-Z01-F001/01.RawData/M0R1/M0R1_MKRN260032551-1A_23M5NYLT4_L4_1.fq.gz
+        read: R1
+        metadata_ref: data/meta_data/DECIDE_A04_CdiffOrganoid_Butyrate_raw_metadata.yaml#/samples/M0R1
+      -
+        path: data/raw_data/_novogene_extracted/X208SC26056228-Z01-F001/01.RawData/M0R1/M0R1_MKRN260032551-1A_23M5NYLT4_L4_2.fq.gz
+        read: R2
+        metadata_ref: data/meta_data/DECIDE_A04_CdiffOrganoid_Butyrate_raw_metadata.yaml#/samples/M0R1
+  M0R2:
+    sample_id: M0R2
+    infection: Mock
+    butyrate_mM: 0
+    replicate: 2
+    files:
+      -
+        path: data/raw_data/M0R2_R1.fastq.gz
+        read: R1
+        metadata_ref: data/meta_data/DECIDE_A04_CdiffOrganoid_Butyrate_raw_metadata.yaml#/samples/M0R2
+      -
+        path: data/raw_data/M0R2_R2.fastq.gz
+        read: R2
+        metadata_ref: data/meta_data/DECIDE_A04_CdiffOrganoid_Butyrate_raw_metadata.yaml#/samples/M0R2
+      -
+        path: data/raw_data/_novogene_extracted/X208SC26056228-Z01-F001/01.RawData/M0R2/M0R2_MKRN260032552-1A_23M5NYLT4_L5_1.fq.gz
+        read: R1
+        metadata_ref: data/meta_data/DECIDE_A04_CdiffOrganoid_Butyrate_raw_metadata.yaml#/samples/M0R2
+      -
+        path: data/raw_data/_novogene_extracted/X208SC26056228-Z01-F001/01.RawData/M0R2/M0R2_MKRN260032552-1A_23M5NYLT4_L5_2.fq.gz
+        read: R2
+        metadata_ref: data/meta_data/DECIDE_A04_CdiffOrganoid_Butyrate_raw_metadata.yaml#/samples/M0R2
+      -
+        path: data/raw_data/_novogene_extracted/X208SC26056228-Z01-F001/01.RawData/M0R2/M0R2_MKRN260032552-1A_23M5WCLT4_L4_1.fq.gz
+        read: R1
+        metadata_ref: data/meta_data/DECIDE_A04_CdiffOrganoid_Butyrate_raw_metadata.yaml#/samples/M0R2
+      -
+        path: data/raw_data/_novogene_extracted/X208SC26056228-Z01-F001/01.RawData/M0R2/M0R2_MKRN260032552-1A_23M5WCLT4_L4_2.fq.gz
+        read: R2
+        metadata_ref: data/meta_data/DECIDE_A04_CdiffOrganoid_Butyrate_raw_metadata.yaml#/samples/M0R2
+  M0R3:
+    sample_id: M0R3
+    infection: Mock
+    butyrate_mM: 0
+    replicate: 3
+    files:
+      -
+        path: data/raw_data/M0R3_R1.fastq.gz
+        read: R1
+        metadata_ref: data/meta_data/DECIDE_A04_CdiffOrganoid_Butyrate_raw_metadata.yaml#/samples/M0R3
+      -
+        path: data/raw_data/M0R3_R2.fastq.gz
+        read: R2
+        metadata_ref: data/meta_data/DECIDE_A04_CdiffOrganoid_Butyrate_raw_metadata.yaml#/samples/M0R3
+      -
+        path: data/raw_data/_novogene_extracted/X208SC26056228-Z01-F001/01.RawData/M0R3/M0R3_MKRN260032553-1A_23M5NYLT4_L4_1.fq.gz
+        read: R1
+        metadata_ref: data/meta_data/DECIDE_A04_CdiffOrganoid_Butyrate_raw_metadata.yaml#/samples/M0R3
+      -
+        path: data/raw_data/_novogene_extracted/X208SC26056228-Z01-F001/01.RawData/M0R3/M0R3_MKRN260032553-1A_23M5NYLT4_L4_2.fq.gz
+        read: R2
+        metadata_ref: data/meta_data/DECIDE_A04_CdiffOrganoid_Butyrate_raw_metadata.yaml#/samples/M0R3
+  M10R1:
+    sample_id: M10R1
+    infection: Mock
+    butyrate_mM: 10
+    replicate: 1
+    files:
+      -
+        path: data/raw_data/M10R1_R1.fastq.gz
+        read: R1
+        metadata_ref: data/meta_data/DECIDE_A04_CdiffOrganoid_Butyrate_raw_metadata.yaml#/samples/M10R1
+      -
+        path: data/raw_data/M10R1_R2.fastq.gz
+        read: R2
+        metadata_ref: data/meta_data/DECIDE_A04_CdiffOrganoid_Butyrate_raw_metadata.yaml#/samples/M10R1
+      -
+        path: data/raw_data/_novogene_extracted/X208SC26056228-Z01-F001/01.RawData/M10R1/M10R1_MKRN260032557-1A_23M5NYLT4_L5_1.fq.gz
+        read: R1
+        metadata_ref: data/meta_data/DECIDE_A04_CdiffOrganoid_Butyrate_raw_metadata.yaml#/samples/M10R1
+      -
+        path: data/raw_data/_novogene_extracted/X208SC26056228-Z01-F001/01.RawData/M10R1/M10R1_MKRN260032557-1A_23M5NYLT4_L5_2.fq.gz
+        read: R2
+        metadata_ref: data/meta_data/DECIDE_A04_CdiffOrganoid_Butyrate_raw_metadata.yaml#/samples/M10R1
+      -
+        path: data/raw_data/_novogene_extracted/X208SC26056228-Z01-F001/01.RawData/M10R1/M10R1_MKRN260032557-1A_23M5WCLT4_L4_1.fq.gz
+        read: R1
+        metadata_ref: data/meta_data/DECIDE_A04_CdiffOrganoid_Butyrate_raw_metadata.yaml#/samples/M10R1
+      -
+        path: data/raw_data/_novogene_extracted/X208SC26056228-Z01-F001/01.RawData/M10R1/M10R1_MKRN260032557-1A_23M5WCLT4_L4_2.fq.gz
+        read: R2
+        metadata_ref: data/meta_data/DECIDE_A04_CdiffOrganoid_Butyrate_raw_metadata.yaml#/samples/M10R1
+  M10R2:
+    sample_id: M10R2
+    infection: Mock
+    butyrate_mM: 10
+    replicate: 2
+    files:
+      -
+        path: data/raw_data/M10R2_R1.fastq.gz
+        read: R1
+        metadata_ref: data/meta_data/DECIDE_A04_CdiffOrganoid_Butyrate_raw_metadata.yaml#/samples/M10R2
+      -
+        path: data/raw_data/M10R2_R2.fastq.gz
+        read: R2
+        metadata_ref: data/meta_data/DECIDE_A04_CdiffOrganoid_Butyrate_raw_metadata.yaml#/samples/M10R2
+      -
+        path: data/raw_data/_novogene_extracted/X208SC26056228-Z01-F001/01.RawData/M10R2/M10R2_MKRN260032558-1A_23M5NYLT4_L4_1.fq.gz
+        read: R1
+        metadata_ref: data/meta_data/DECIDE_A04_CdiffOrganoid_Butyrate_raw_metadata.yaml#/samples/M10R2
+      -
+        path: data/raw_data/_novogene_extracted/X208SC26056228-Z01-F001/01.RawData/M10R2/M10R2_MKRN260032558-1A_23M5NYLT4_L4_2.fq.gz
+        read: R2
+        metadata_ref: data/meta_data/DECIDE_A04_CdiffOrganoid_Butyrate_raw_metadata.yaml#/samples/M10R2
+  M10R3:
+    sample_id: M10R3
+    infection: Mock
+    butyrate_mM: 10
+    replicate: 3
+    files:
+      -
+        path: data/raw_data/M10R3_R1.fastq.gz
+        read: R1
+        metadata_ref: data/meta_data/DECIDE_A04_CdiffOrganoid_Butyrate_raw_metadata.yaml#/samples/M10R3
+      -
+        path: data/raw_data/M10R3_R2.fastq.gz
+        read: R2
+        metadata_ref: data/meta_data/DECIDE_A04_CdiffOrganoid_Butyrate_raw_metadata.yaml#/samples/M10R3
+      -
+        path: data/raw_data/_novogene_extracted/X208SC26056228-Z01-F001/01.RawData/M10R3/M10R3_MKRN260032559-1A_23M5NYLT4_L4_1.fq.gz
+        read: R1
+        metadata_ref: data/meta_data/DECIDE_A04_CdiffOrganoid_Butyrate_raw_metadata.yaml#/samples/M10R3
+      -
+        path: data/raw_data/_novogene_extracted/X208SC26056228-Z01-F001/01.RawData/M10R3/M10R3_MKRN260032559-1A_23M5NYLT4_L4_2.fq.gz
+        read: R2
+        metadata_ref: data/meta_data/DECIDE_A04_CdiffOrganoid_Butyrate_raw_metadata.yaml#/samples/M10R3
+  M5R1:
+    sample_id: M5R1
+    infection: Mock
+    butyrate_mM: 5
+    replicate: 1
+    files:
+      -
+        path: data/raw_data/M5R1_R1.fastq.gz
+        read: R1
+        metadata_ref: data/meta_data/DECIDE_A04_CdiffOrganoid_Butyrate_raw_metadata.yaml#/samples/M5R1
+      -
+        path: data/raw_data/M5R1_R2.fastq.gz
+        read: R2
+        metadata_ref: data/meta_data/DECIDE_A04_CdiffOrganoid_Butyrate_raw_metadata.yaml#/samples/M5R1
+      -
+        path: data/raw_data/_novogene_extracted/X208SC26056228-Z01-F001/01.RawData/M5R1/M5R1_MKRN260032554-1A_23M5NYLT4_L4_1.fq.gz
+        read: R1
+        metadata_ref: data/meta_data/DECIDE_A04_CdiffOrganoid_Butyrate_raw_metadata.yaml#/samples/M5R1
+      -
+        path: data/raw_data/_novogene_extracted/X208SC26056228-Z01-F001/01.RawData/M5R1/M5R1_MKRN260032554-1A_23M5NYLT4_L4_2.fq.gz
+        read: R2
+        metadata_ref: data/meta_data/DECIDE_A04_CdiffOrganoid_Butyrate_raw_metadata.yaml#/samples/M5R1
+  M5R2:
+    sample_id: M5R2
+    infection: Mock
+    butyrate_mM: 5
+    replicate: 2
+    files:
+      -
+        path: data/raw_data/M5R2_R1.fastq.gz
+        read: R1
+        metadata_ref: data/meta_data/DECIDE_A04_CdiffOrganoid_Butyrate_raw_metadata.yaml#/samples/M5R2
+      -
+        path: data/raw_data/M5R2_R2.fastq.gz
+        read: R2
+        metadata_ref: data/meta_data/DECIDE_A04_CdiffOrganoid_Butyrate_raw_metadata.yaml#/samples/M5R2
+      -
+        path: data/raw_data/_novogene_extracted/X208SC26056228-Z01-F001/01.RawData/M5R2/M5R2_MKRN260032555-1A_23M5NYLT4_L4_1.fq.gz
+        read: R1
+        metadata_ref: data/meta_data/DECIDE_A04_CdiffOrganoid_Butyrate_raw_metadata.yaml#/samples/M5R2
+      -
+        path: data/raw_data/_novogene_extracted/X208SC26056228-Z01-F001/01.RawData/M5R2/M5R2_MKRN260032555-1A_23M5NYLT4_L4_2.fq.gz
+        read: R2
+        metadata_ref: data/meta_data/DECIDE_A04_CdiffOrganoid_Butyrate_raw_metadata.yaml#/samples/M5R2
+  M5R3:
+    sample_id: M5R3
+    infection: Mock
+    butyrate_mM: 5
+    replicate: 3
+    files:
+      -
+        path: data/raw_data/M5R3_R1.fastq.gz
+        read: R1
+        metadata_ref: data/meta_data/DECIDE_A04_CdiffOrganoid_Butyrate_raw_metadata.yaml#/samples/M5R3
+      -
+        path: data/raw_data/M5R3_R2.fastq.gz
+        read: R2
+        metadata_ref: data/meta_data/DECIDE_A04_CdiffOrganoid_Butyrate_raw_metadata.yaml#/samples/M5R3
+      -
+        path: data/raw_data/_novogene_extracted/X208SC26056228-Z01-F001/01.RawData/M5R3/M5R3_MKRN260032556-1A_23M5NYLT4_L4_1.fq.gz
+        read: R1
+        metadata_ref: data/meta_data/DECIDE_A04_CdiffOrganoid_Butyrate_raw_metadata.yaml#/samples/M5R3
+      -
+        path: data/raw_data/_novogene_extracted/X208SC26056228-Z01-F001/01.RawData/M5R3/M5R3_MKRN260032556-1A_23M5NYLT4_L4_2.fq.gz
+        read: R2
+        metadata_ref: data/meta_data/DECIDE_A04_CdiffOrganoid_Butyrate_raw_metadata.yaml#/samples/M5R3

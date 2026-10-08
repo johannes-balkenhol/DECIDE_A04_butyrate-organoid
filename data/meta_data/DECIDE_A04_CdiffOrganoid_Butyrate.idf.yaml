@@ -1,0 +1,63 @@
+mage_tab_version: 1.1
+hubmap_aligned: true
+generated: 2026-07-06
+status: draft-for-review — <TODO> = confirm before ArrayExpress submission; empty = to be filled
+Investigation Title: C. difficile infection of colonic organoids under a sodium-butyrate dose-response
+Experiment Description: "Patient-derived human colonic organoids infected with Clostridioides difficile across a sodium-butyrate dose-response (0/5/10 mM), crossed with Mock. 18 libraries (3 replicates). Host mRNA, GRCh38/GENCODE v46, DESeq2/pydeseq2. Readout: NF-kB/IL-8 programme."
+Experimental Design:
+  - dose response design
+  - stimulus or stress design
+  - co-culture / infection design
+Experiment Type:
+  - transcription profiling by high throughput sequencing
+Public Release Date: <TODO>
+Person:
+  -
+    Last Name: Balkenhol
+    First Name: Johannes
+    Roles: data analyst
+  -
+    Last Name: Faber
+    First Name: <TODO>
+    Roles: investigator
+Organism: Homo sapiens
+Experimental Factor:
+  - infection
+  - butyrate dose
+  - replicate
+Protocol:
+  -
+    Name: growth protocol
+    Type: growth protocol
+    Description: <TODO>
+  -
+    Name: treatment protocol
+    Type: treatment protocol
+    Description: <TODO>
+  -
+    Name: nucleic acid extraction
+    Type: nucleic acid extraction protocol
+    Description: <TODO>
+  -
+    Name: library construction
+    Type: nucleic acid library construction protocol
+    Description: <TODO>
+  -
+    Name: sequencing
+    Type: nucleic acid sequencing protocol
+    Description: <TODO>
+  -
+    Name: data analysis
+    Type: high throughput sequence alignment protocol
+    Description: See scripts/notebooks/ (numbered pipeline).
+Publication Target Repository: ArrayExpress
+License: "open license (<TODO confirm exact: e.g. CC-BY-4.0>)"
+HubMap:
+  assay_type: bulk RNA-seq
+  analyte_class: RNA
+  sample_category: patient-derived colonic organoid
+  data_provenance: DECIDE DECIDE_A04_CdiffOrganoid_Butyrate
+  reference_genome: GRCh38
+  annotation: GENCODE v46
+Raw Data Availability: Raw FASTQ on HPC (data/raw_data, incl. Novogene delivery). Not cloud-synced by default (size).
+Comment[AEExperimentType]: RNA-seq of coding RNA

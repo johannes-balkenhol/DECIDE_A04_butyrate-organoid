@@ -1,0 +1,41 @@
+# Raw sequencing data — too large for GitHub
+data/raw_data/*.fastq.gz
+data/raw_data/*.fastq
+data/raw_data/*.bam
+data/raw_data/*.bam.bai
+data/raw_data/*.tar
+data/raw_data/*.tar.gz
+
+# Reference genomes
+data/refs/
+
+# Large interface/annotation files
+analysis/interface/omnipath_intercell_annotations.csv
+
+# Primary h5ad if large
+data/primary_data/*.h5ad
+
+# Jupyter checkpoints
+**/.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log
+
+# Processed data — too large for GitHub, belongs on Nextcloud/ENA
+data/processed_data/
+
+# Raw data — entire folder
+data/raw_data/
+
+# Reference genomes — entire folder  
+data/refs/
